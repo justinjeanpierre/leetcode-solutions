@@ -2,7 +2,7 @@ import Testing
 @testable import LeetCode_Solutions
 
 struct RESolutionTests {
-    @Test("LeetCode Testcase 1") func testLCExample1() {
+    @Test("LeetCode Testcase 27-1") func testLCExample1() {
         var inputArray = [3, 2, 2, 3]
         let inputValue = 3
         let expectedOutput = (2, [2, 2])
@@ -17,7 +17,7 @@ struct RESolutionTests {
         }
     }
 
-    @Test("LeetCode Testcase 2") func testLCExample2() {
+    @Test("LeetCode Testcase 27-2") func testLCExample2() {
         var inputArray = [0,1,2,2,3,0,4,2]
         let inputValue = 2
         let expectedOutput = (5, [0,1,3,0,4])
