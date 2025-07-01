@@ -1,10 +1,3 @@
-//
-//  LeetCode_SolutionsTests.swift
-//  LeetCode SolutionsTests
-//
-//  Created by Justin Jean-Pierre on 2025-07-01.
-//
-
 import Testing
 @testable import LeetCode_Solutions
 
