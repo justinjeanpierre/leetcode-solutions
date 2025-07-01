@@ -1,10 +1,3 @@
-//
-//  LeetCode_SolutionsUITests.swift
-//  LeetCode SolutionsUITests
-//
-//  Created by Justin Jean-Pierre on 2025-07-01.
-//
-
 import XCTest
 
 final class LeetCode_SolutionsUITests: XCTestCase {
