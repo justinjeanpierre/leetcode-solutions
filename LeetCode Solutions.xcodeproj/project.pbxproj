@@ -27,6 +27,7 @@
 		D0A824BF2E146E86005F48C0 /* LeetCode Solutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeetCode Solutions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A824CC2E146E86005F48C0 /* LeetCode SolutionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeetCode SolutionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A824D62E146E86005F48C0 /* LeetCode SolutionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeetCode SolutionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A824E92E146FD1005F48C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		D0A824B62E146E86005F48C0 = {
 			isa = PBXGroup;
 			children = (
+				D0A824E92E146FD1005F48C0 /* .gitignore */,
 				D0A824C12E146E86005F48C0 /* LeetCode Solutions */,
 				D0A824CF2E146E86005F48C0 /* LeetCode SolutionsTests */,
 				D0A824D92E146E86005F48C0 /* LeetCode SolutionsUITests */,
