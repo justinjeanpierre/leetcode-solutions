@@ -35,9 +35,22 @@
 		D0A824E92E146FD1005F48C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D01424B72E1481930079F91E /* Exceptions for "LeetCode Solutions" folder in "LeetCode SolutionsTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"26 - Remove Duplicates/RemoveDuplicates.swift",
+			);
+			target = D0A824CB2E146E86005F48C0 /* LeetCode SolutionsTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D0A824C12E146E86005F48C0 /* LeetCode Solutions */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D01424B72E1481930079F91E /* Exceptions for "LeetCode Solutions" folder in "LeetCode SolutionsTests" target */,
+			);
 			path = "LeetCode Solutions";
 			sourceTree = "<group>";
 		};
