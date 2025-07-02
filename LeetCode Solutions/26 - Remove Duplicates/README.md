@@ -35,7 +35,7 @@ func removeDuplicates(_ nums: inout [Int]) -> Int {
     return uniqueCount
 }
 ```
-Add readme to problem 26.
+
 ## Test Cases
 ```swift
 @Test("LeetCode Testcase 26-1") func testLCExample1() {
