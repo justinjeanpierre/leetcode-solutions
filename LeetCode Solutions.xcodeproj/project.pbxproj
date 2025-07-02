@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D07CAE7E2E147063006BF9EB /* .jazzy.yaml in Resources */ = {isa = PBXBuildFile; fileRef = D07CAE7D2E14705C006BF9EB /* .jazzy.yaml */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		D0A824CD2E146E86005F48C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,7 +17,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D07CAE7D2E14705C006BF9EB /* .jazzy.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .jazzy.yaml; sourceTree = "<group>"; };
+		D04F12452E14C97B0007FA85 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D0A824BF2E146E86005F48C0 /* LeetCode Solutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeetCode Solutions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A824CC2E146E86005F48C0 /* LeetCode SolutionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeetCode SolutionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A824E92E146FD1005F48C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore; sourceTree = "<group>"; };
@@ -35,12 +31,21 @@
 			);
 			target = D0A824CB2E146E86005F48C0 /* LeetCode SolutionsTests */;
 		};
+		D04F124E2E14D0C20007FA85 /* Exceptions for "LeetCode Solutions" folder in "LeetCode Solutions" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"26 - Remove Duplicates/README.md",
+				"27 - Remove Element/README.md",
+			);
+			target = D0A824BE2E146E86005F48C0 /* LeetCode Solutions */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D0A824C12E146E86005F48C0 /* LeetCode Solutions */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				D04F124E2E14D0C20007FA85 /* Exceptions for "LeetCode Solutions" folder in "LeetCode Solutions" target */,
 				D01424B72E1481930079F91E /* Exceptions for "LeetCode Solutions" folder in "LeetCode SolutionsTests" target */,
 			);
 			path = "LeetCode Solutions";
@@ -74,8 +79,8 @@
 		D0A824B62E146E86005F48C0 = {
 			isa = PBXGroup;
 			children = (
+				D04F12452E14C97B0007FA85 /* README.md */,
 				D0A824E92E146FD1005F48C0 /* .gitignore */,
-				D07CAE7D2E14705C006BF9EB /* .jazzy.yaml */,
 				D0A824C12E146E86005F48C0 /* LeetCode Solutions */,
 				D0A824CF2E146E86005F48C0 /* LeetCode SolutionsTests */,
 				D0A824C02E146E86005F48C0 /* Products */,
@@ -183,7 +188,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D07CAE7E2E147063006BF9EB /* .jazzy.yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
