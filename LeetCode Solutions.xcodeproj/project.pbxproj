@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D04F12462E14C9810007FA85 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D04F12452E14C97B0007FA85 /* README.md */; };
 		D07CAE7E2E147063006BF9EB /* .jazzy.yaml in Resources */ = {isa = PBXBuildFile; fileRef = D07CAE7D2E14705C006BF9EB /* .jazzy.yaml */; };
 /* End PBXBuildFile section */
 
@@ -37,12 +36,20 @@
 			);
 			target = D0A824CB2E146E86005F48C0 /* LeetCode SolutionsTests */;
 		};
+		D04F124E2E14D0C20007FA85 /* Exceptions for "LeetCode Solutions" folder in "LeetCode Solutions" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"27 - Remove Element/README.md",
+			);
+			target = D0A824BE2E146E86005F48C0 /* LeetCode Solutions */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D0A824C12E146E86005F48C0 /* LeetCode Solutions */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				D04F124E2E14D0C20007FA85 /* Exceptions for "LeetCode Solutions" folder in "LeetCode Solutions" target */,
 				D01424B72E1481930079F91E /* Exceptions for "LeetCode Solutions" folder in "LeetCode SolutionsTests" target */,
 			);
 			path = "LeetCode Solutions";
@@ -186,7 +193,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D04F12462E14C9810007FA85 /* README.md in Resources */,
 				D07CAE7E2E147063006BF9EB /* .jazzy.yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
