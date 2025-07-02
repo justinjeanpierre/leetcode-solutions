@@ -27,6 +27,7 @@
 		D01424B72E1481930079F91E /* Exceptions for "LeetCode Solutions" folder in "LeetCode SolutionsTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"4 - Median of Two Sorted Arrays/MedianSortedArrays.swift",
 				"14 - Longest Common Prefix/LongestCommonPrefix.swift",
 				"26 - Remove Duplicates/RemoveDuplicates.swift",
 			);
@@ -35,6 +36,7 @@
 		D04F124E2E14D0C20007FA85 /* Exceptions for "LeetCode Solutions" folder in "LeetCode Solutions" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"4 - Median of Two Sorted Arrays/README.md",
 				"14 - Longest Common Prefix/README.md",
 				"26 - Remove Duplicates/README.md",
 				"27 - Remove Element/README.md",
