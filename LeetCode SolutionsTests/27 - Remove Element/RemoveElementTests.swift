@@ -15,9 +15,7 @@ struct RESolutionTests {
         #expect(actualOutput == expectedOutput.0)
 
         for (index, _) in expectedOutput.1.enumerated() {
-            if index < expectedOutput.0 {
-                #expect(inputArray[index] == expectedOutput.1[index])
-            }
+            #expect(inputArray[index] == expectedOutput.1[index])
         }
     }
 
@@ -34,9 +32,7 @@ struct RESolutionTests {
         #expect(actualOutput == expectedOutput.0)
 
         for (index, _) in expectedOutput.1.enumerated() {
-            if index < expectedOutput.0 {
-                #expect(inputArray[index] == expectedOutput.1[index])
-            }
+            #expect(inputArray[index] == expectedOutput.1[index])
         }
     }
 }
