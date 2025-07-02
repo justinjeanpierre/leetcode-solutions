@@ -14,24 +14,26 @@ Consider the number of elements in `nums` which are not equal to `val` be `k`.  
 
 ## Solution
 ```swift
-class RESolution {
-    func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
-        nums = nums.filter { $0 != val }
+func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
+    nums = nums.filter { $0 != val }
 
-        return nums.count
-    }
+    return nums.count
 }
 ```
 
 ## Test Cases
 ```swift
 @Test("LeetCode Testcase 27-1") func testLCExample1() {
+        // given
     var inputArray = [3, 2, 2, 3]
     let inputValue = 3
     let expectedOutput = (2, [2, 2])
 
-    let output = RESolution().removeElement(&inputArray, inputValue)
-    #expect(output == expectedOutput.0)
+    // when
+    let actualOutput = RESolution().removeElement(&inputArray, inputValue)
+
+    // then
+    #expect(actualOutput == expectedOutput.0)
 
     for (index, _) in expectedOutput.1.enumerated() {
         if index < expectedOutput.0 {
@@ -43,12 +45,16 @@ class RESolution {
 
 ```swift
 @Test("LeetCode Testcase 27-2") func testLCExample2() {
+        // given
     var inputArray = [0,1,2,2,3,0,4,2]
     let inputValue = 2
     let expectedOutput = (5, [0,1,3,0,4])
 
-    let output = RESolution().removeElement(&inputArray, inputValue)
-    #expect(output == expectedOutput.0)
+    // when
+    let actualOutput = RESolution().removeElement(&inputArray, inputValue)
+
+    // then
+    #expect(actualOutput == expectedOutput.0)
 
     for (index, _) in expectedOutput.1.enumerated() {
         if index < expectedOutput.0 {
