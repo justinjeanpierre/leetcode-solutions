@@ -17,8 +17,7 @@ class LongestCommonPrefixSolution {
         }
 
         func recursiveComparePrefixes(_ len: Int, _ src: String, _ array: [String]) -> String {
-            if len == 0 { return "" }
-
+            guard len != 0 else { return "" }
             guard let comparisonString = array.first?.prefix(len) else { return "" }
 
             let filteredArray = array.filter { $0.prefix(len) == comparisonString }
