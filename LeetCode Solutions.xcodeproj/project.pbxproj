@@ -30,6 +30,7 @@
 				"4 - Median of Two Sorted Arrays/MedianSortedArrays.swift",
 				"14 - Longest Common Prefix/LongestCommonPrefix.swift",
 				"26 - Remove Duplicates/RemoveDuplicates.swift",
+				"66 - Plus One/PlusOne.swift",
 			);
 			target = D0A824CB2E146E86005F48C0 /* LeetCode SolutionsTests */;
 		};
@@ -40,6 +41,7 @@
 				"14 - Longest Common Prefix/README.md",
 				"26 - Remove Duplicates/README.md",
 				"27 - Remove Element/README.md",
+				"66 - Plus One/README.md",
 			);
 			target = D0A824BE2E146E86005F48C0 /* LeetCode Solutions */;
 		};
